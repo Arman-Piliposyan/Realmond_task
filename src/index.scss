@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import '/src/globalStyles/colors.scss';
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+  color: $white !important;
+  background-color: $mainBackgroundColor !important;
+  overflow: hidden;
+}
+
+li::marker {
+  color: white;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: color-mix(in srgb, $colorPrimary 25%, transparent);
+  opacity: 0.1;
+}
+
+::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+  border-radius: 0px;
+  background-color: color-mix(in srgb, $colorPrimary 25%, transparent);
+  opacity: 0.1;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: $colorPrimary;
+}
