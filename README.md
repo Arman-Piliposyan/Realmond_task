@@ -8,13 +8,25 @@
 
 Для запуска приложения следуйте этим шагам:
 
-1. Установите зависимости:
+1. Клонируйте репозиторий:
+
+   ```sh
+   git clone https://github.com/Arman-Piliposyan/Realmond_task.git
+   ```
+
+2. Перейдите в директорию проекта:
+
+   ```sh
+   cd Realmond_task
+   ```
+
+3. Установите зависимости:
 
    ```sh
    npm install
    ```
 
-2. Запустите приложение:
+4. Запустите приложение:
    ```sh
    npm start
    ```
@@ -40,13 +52,25 @@ This is a responsive web application that functions correctly on all devices. Th
 
 To get the application up and running, follow these steps:
 
-1. Install dependencies:
+1. Clone the repository::
+
+   ```sh
+   git clone https://github.com/Arman-Piliposyan/Realmond_task.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd Realmond_task
+   ```
+
+3. Install dependencies:
 
    ```sh
    npm install
    ```
 
-2. Start the application::
+4. Start the application::
    ```sh
    npm start
    ```
